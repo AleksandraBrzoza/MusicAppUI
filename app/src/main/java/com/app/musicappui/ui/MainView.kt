@@ -41,3 +41,12 @@ fun MainView(){
         Text("Text", modifier = Modifier.padding(it))
     }
 }
+
+
+@Composable
+fun DrawerItem(
+    selected: Boolean,
+    onDrawerItemClicked : () -> Unit
+) {
+
+}
