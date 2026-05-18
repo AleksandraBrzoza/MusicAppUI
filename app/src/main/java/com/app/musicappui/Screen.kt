@@ -2,6 +2,8 @@ package com.app.musicappui
 
 import androidx.annotation.DrawableRes
 
+
+
 sealed class Screen (
     val title : String,
     val route : String
@@ -28,3 +30,9 @@ sealed class Screen (
         )
     }
 }
+
+val screensInDrawer = listOf(
+    Screen.DrawerScreen.Account,
+    Screen.DrawerScreen.Subscription,
+    Screen.DrawerScreen.AddAccount
+)
